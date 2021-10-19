@@ -1,0 +1,239 @@
+/*body*/
+body{
+    background-color: white;
+    margin: 10px auto 10px auto;
+    padding: 0 20px 20px 20px;
+}
+/*link*/
+a{
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 15px;
+    color: black;
+}
+a:active{
+    color: rgb(59, 59, 59);
+}
+/* header-items */
+#header-items{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#gmail:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#images:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#grid{
+    background-color: transparent;
+    border: 0 transparent;
+    margin-right: 5px;
+}
+#grid-icon{
+    background-color: transparent;
+    border: 0 transparent;
+    width: 20px;
+}
+#grid-icon:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius: 2px;
+}
+#sign-in{
+    margin-right: 20px;
+    padding: 9px;
+    width: 100;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 110, 221);
+    border: 0 solid #ccc;
+    border-radius: 6px;
+}
+#sign-in:hover{
+    border-radius: 6px;
+    background-color: rgb(63, 124, 236);
+    border: 1 solid rgb(189, 189, 189);
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,0.19);
+}
+/* google-image */
+#google-image{
+    display: block;
+    margin: 0 auto;
+    padding: 64px 20px 20px 20px;
+}
+/* search-text */
+#search-text{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 17px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0.1px solid rgb(221, 221, 221);
+}
+#search-text:hover{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 17px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0 solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 10px 0px rgba(0,0,0,0.19);
+}
+#search-text:focus{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 17px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0 solid #ccc;
+    outline: none;
+    box-shadow: 0 2px 10px 0px rgba(0,0,0,0.19);
+}
+/* search-luck */
+#search-luck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: 37px;
+}
+#search{
+    margin-right: 20px;
+    padding: 9px;
+    width: 135px;
+    font-size: 15px;
+    background-color: rgb(248, 248, 248);
+    border: 0 solid #ccc;
+    border-radius: 6px;
+}
+#search:hover{
+    border-radius: 6px;
+    border: 1 solid rgb(189, 189, 189);
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,0.19);
+}
+#luck{
+    margin-right: 20px;
+    padding: 9px;
+    width: 135px;
+    font-size: 15px;
+    background-color: rgb(248, 248, 248);
+    border: 0 solid #ccc;
+    border-radius: 6px;
+}
+#luck:hover{
+    border-radius: 6px;
+    border: 1 solid rgb(189, 189, 189);
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,0.19);
+}
+/* language */
+#language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#lang{
+    margin: 2px 6px 10px 20px;
+}
+#lang-link{
+    font-size: 16px;
+    color: rgb(10, 88, 177);
+}
+#lang-link:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+/* footer-items */
+#footer-items{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgb(241, 241, 241);
+}
+#footer-itemss{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 241, 241);
+}
+#pal{
+    padding-left: 35px;
+    color: rgb(109, 109, 109);
+}
+#about{
+    padding-left: 35px;
+    padding-bottom: 20px;
+    color: rgb(109, 109, 109);
+}
+#about:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#adver{
+    padding-left: 20px;
+    color: rgb(109, 109, 109);
+}
+#adver:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#bussiness{
+    padding-left: 20px;
+    color: rgb(109, 109, 109);
+}
+#bussiness:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#hsw{
+    padding-left: 20;
+    color: rgb(109, 109, 109);
+}
+#hsw:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#privacy{
+    float: right;
+    padding-right: 20;
+    color: rgb(122, 122, 122);
+}
+#privacy:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#terms{
+    float: right;
+    padding-right: 20;
+    color: rgb(109, 109, 109);
+}
+#terms:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#settings{
+    float: right;
+    padding-right: 35px;
+    color: rgb(109, 109, 109);
+}
+#settings:hover{
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+#linh{
+    color: rgb(121, 121, 121);
+}
